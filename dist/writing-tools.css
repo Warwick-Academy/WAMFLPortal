@@ -1,0 +1,7 @@
+.accent-bar{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0 6px}
+.accent-bar button{min-width:30px;min-height:29px;padding:2px 7px;font-size:14px;font-weight:650;line-height:1.2;color:#17314d;background:#edf5fc;border:1px solid #c5d4e2;border-radius:6px;cursor:pointer}
+.accent-bar button:hover,.accent-bar button:focus-visible{background:#d9eaf7;border-color:#27658e}
+.accent-field{min-width:0}
+.y10-fiche .y10-vocab-note{margin:10px 12px 0;color:#354f65}
+.y10-fiche .vocab-key{display:block;text-align:left;padding:4px 7px;font:inherit;border:1px solid #ccdce7;border-radius:5px;background:white;cursor:pointer}
+.y10-fiche .vocab-key:hover,.y10-fiche .vocab-key:focus-visible{background:#e1f1ee;border-color:#176b64}

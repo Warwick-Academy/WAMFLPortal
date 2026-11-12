@@ -1,0 +1,27 @@
+.y10-rehearsal-text {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #edf6f4;
+  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+  line-height: 1.9;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+[data-y10-speaking] {
+  background: #ffdd78;
+  color: #17314d;
+  border-radius: 3px;
+}
+
+.y10-instructions [lang="en"] { color: #4d6274; }
+.y10-rehearsal-text button { font: inherit; padding: 0 4px; }
+.y10-kept-word { background: #d8f1e8; border-color: #72a89b; }
+[data-y10-typing] { margin-top: 14px; }
+[data-y10-typing] textarea { display: block; width: 100%; margin-bottom: 8px; }
+.y10-translation-prompt { margin: 1rem 0; }
+.y10-translation-prompt :is(button, input, label, summary, .muted) { font-size: 1rem; }
+.y10-cue-source { margin: .5rem 0; }
+[data-y10-manual-cue] input { display: block; margin: 6px 0; width: min(100%, 32rem); }
+[data-y10-audio-status]:empty, [data-y10-rehearsal] .practice-feedback:empty { display: none; }

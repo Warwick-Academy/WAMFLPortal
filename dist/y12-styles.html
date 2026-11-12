@@ -1,0 +1,285 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Year 12 · Identités · Styles de vie</title><style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#17314d;background:#f4f7fb}*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button{cursor:pointer;border:1px solid #c5d4e2;border-radius:10px;background:white;color:#17314d;padding:10px 13px}button:hover{border-color:#27658e;background:#edf5fc}button:disabled{cursor:default;opacity:.5}button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #347dba;outline-offset:3px}.primary,.active{background:#173d66!important;color:white!important;border-color:#173d66}.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:16px 20px;background:white;border-bottom:1px solid #d6e0ea}.toolbar .status{margin-left:auto}.status,.muted{color:#536b80;font-size:13px}.wrap{padding:20px;max-width:1450px;margin:auto}.card{padding:22px;background:white;border:1px solid #d9e3ed;border-radius:14px;margin-bottom:16px}.card h2,.card h3{margin-top:0}.card h2{font-size:21px;line-height:1.45}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:16px;align-items:start}.answer-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:16px;align-items:start}.sidebar{display:grid;gap:8px;position:sticky;top:12px}.sidebar button{text-align:left;line-height:1.4;font-size:13px}.sidebar small{display:block;margin-top:4px;color:#60778c}.sidebar .active small{color:#d4e1ed}textarea,input[type=text]{width:100%;border:1px solid #bccddd;border-radius:10px;padding:12px;background:#fff;line-height:1.65;color:#17314d}textarea{resize:vertical;min-height:100px}textarea.answer{min-height:340px;font-size:17px}label.field-label{display:block;font-size:14px;font-weight:650;margin:18px 0 7px}.actions{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.bank{display:grid;gap:8px}.question-option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid #d9e3ed;border-radius:10px;background:white;line-height:1.5}.question-option input{margin-top:6px;flex-shrink:0;width:18px;height:18px}.bank-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:15px}.bank-head input{flex:1;min-width:180px}.count{font-weight:700;color:#24597f}.sticky-actions{position:sticky;bottom:0;padding:12px;background:#f4f7fbf2;border-top:1px solid #d9e3ed;display:flex;gap:10px;align-items:center;flex-wrap:wrap}details{border-top:1px solid #d9e3ed;padding:13px 0}details:first-of-type{border-top:0}summary{font-weight:650;cursor:pointer;line-height:1.4}details p,details li{font-size:14px;line-height:1.6}details ul{padding-left:20px}.model{display:block;padding:10px;background:#edf4fa;border-radius:8px;margin:9px 0;font-size:14px;line-height:1.55}.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#a33d4a;margin-bottom:9px}.focus{font-size:22px;line-height:1.7;background:#edf5fc;padding:22px;border-radius:12px;min-height:110px;white-space:pre-wrap;overflow-wrap:anywhere}.initials{white-space:pre-wrap;line-height:2.2;font-size:22px}.initial-word{font-size:22px;border:0;border-bottom:2px solid #aec5d9;border-radius:4px;padding:0 3px;margin:0 1px;min-width:22px;background:#edf5fc}.sentence{padding:14px;border:1px solid #d9e3ed;border-radius:10px;margin:12px 0;white-space:pre-wrap;overflow-wrap:anywhere}.sentence-tools{display:flex;gap:8px;margin-top:8px}.sentence-tools button{font-size:12px;padding:7px 9px}.check{display:flex;gap:9px;font-size:14px;line-height:1.5;margin:10px 0}.check input{flex-shrink:0;margin-top:5px}a{color:#1d6394}.reveal{white-space:pre-wrap;line-height:1.75;background:#fff8e8;padding:18px;border-radius:10px;margin-top:15px}.empty{padding:25px;background:#edf4fa;border-radius:10px;line-height:1.6}.hidden{display:none!important}.print-only{display:none}.progress{height:6px;background:#e1ebf4;border-radius:8px;overflow:hidden;margin:14px 0}.progress>span{height:100%;background:#3777a8;display:block}#notice{padding:0 20px;color:#a33d4a;font-size:14px}.word-count{text-align:right;font-size:12px;color:#60778c;margin-top:5px}.help .card{padding:17px}.self{margin-top:20px}h3{font-size:16px}p{line-height:1.6}.section-title{margin:22px 0 12px;font-size:17px}
+@media(max-width:900px){.answer-layout{grid-template-columns:1fr}.help{display:grid;grid-template-columns:1fr}.layout{grid-template-columns:195px minmax(0,1fr)}}@media(max-width:650px){.wrap{padding:12px}.layout{grid-template-columns:130px minmax(0,1fr);gap:10px}.sidebar button{font-size:12px;padding:9px}.card{padding:14px}.card h2{font-size:18px}.focus{font-size:18px;padding:14px}.toolbar{padding:12px}.toolbar button{font-size:12px;padding:9px}.toolbar .status{width:100%;margin:0}.bank-head{display:block}.bank-head input{margin-top:10px}.answer-layout{display:block}.initial-word{font-size:20px}.card textarea.answer{font-size:15px}}
+@media print{body{background:white;color:black}body>*:not(#printArea){display:none!important}#printArea{display:block!important;font-family:Arial,sans-serif;padding:15px}#printArea article{break-inside:avoid;margin:22px 0}#printArea .printed-answer{white-space:pre-wrap;line-height:1.6}#printArea h1{font-size:22px}#printArea h2{font-size:16px}#printArea .comments{margin-top:20px;border-bottom:1px solid #aaa;min-height:50px;font-size:13px}}
+
+.toolbar{display:block}.step-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.step-row+.step-row{margin-top:10px}.practice-row>strong{font-size:13px;margin-right:4px}.draft-excerpt{white-space:pre-wrap;line-height:1.6;background:#f4f7fb;border:1px solid #dce6ee;border-radius:10px;padding:14px;margin:12px 0;overflow-wrap:anywhere}.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px}.review-card{border:1px solid #dce6ee;border-radius:12px;padding:15px;min-width:0}.review-card h3{margin:0 0 8px}.evidence{list-style:none;padding:0;display:grid;gap:7px}.evidence button{text-align:left;max-width:100%;overflow-wrap:anywhere;font-size:13px;padding:5px 8px}.evidence small{display:block;margin:4px 0;color:#53687b}.model small{color:#53687b}
+
+.simple-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.simple-toolbar .status{margin-left:auto}.simple-toolbar:has(> .status:only-child){padding-block:7px}
+.simple-steps{display:flex;flex-wrap:wrap;gap:6px}.simple-card{max-width:760px;margin-inline:auto}
+.question-links{display:grid;gap:8px}.question-link{display:flex;justify-content:space-between;align-items:center;text-align:left;gap:12px;padding:12px 14px}
+.question-link small,.question-progress{font-size:12px;color:#506579}.question-link strong{display:block;font-size:15px}
+.question-progress{flex-shrink:0}.simple-details{margin:12px 0}.simple-details[open]>.bank{max-height:360px;overflow:auto;padding:4px}
+.simple-answer{min-height:145px}.quick-review{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.quick-review>section{border:1px solid #dce6ee;border-radius:12px;padding:13px}
+.quick-review h3{margin:0}.quick-review ul{padding-left:18px;margin-bottom:0}.quick-review li+li{margin-top:6px}
+.practice-controls{border-top:1px solid #dce6ee;padding-top:12px}
+@media(max-width:580px){.quick-review{grid-template-columns:1fr}.question-link{align-items:flex-start;flex-direction:column;gap:4px}.simple-toolbar .status{width:100%;margin:0}}
+
+@font-face{font-family:Fiche Sans;src:url("assets/fiche/dejavu-sans.woff") format("woff");font-weight:400;font-display:swap}
+@font-face{font-family:Fiche Sans;src:url("assets/fiche/dejavu-sans-bold.woff") format("woff");font-weight:700;font-display:swap}
+.oral-fiche{container-type:inline-size;overflow:hidden;margin:10px 0 15px;border:1.5px solid #d9e0e9;border-radius:13px;background:#fff;color:#162842;font:400 13px/1.2 "Fiche Sans","DejaVu Sans",sans-serif}
+.oral-fiche h3{display:flex;align-items:baseline;gap:19px;margin:0;border-radius:11px;background:#e9f4f1;padding:11px 15px;font:700 15px/1.3 "Fiche Sans","DejaVu Sans",sans-serif}
+.oral-fiche h3 span,.oral-fiche h4{color:#176b64}
+.oral-fiche-columns{display:grid;grid-template-columns:62% 38%;padding:9px 15px;min-height:140px}
+.oral-fiche h4{margin:0 0 3px;text-transform:uppercase;font-size:11px;line-height:1.25}
+.oral-fiche-phrases{padding-right:14px}
+.oral-fiche-vocab{border-left:1px solid #d9e0e9;padding-left:15px}
+.oral-fiche-phrase{display:grid;grid-template-columns:19% 1fr;gap:8px;margin-bottom:5px}
+.oral-fiche-phrase>strong{font-size:10px;color:#43546b}
+.oral-fiche small{display:block;color:#526680;font-size:10.5px;line-height:1.3}
+.oral-fiche-vocab>div+div{margin-top:4px}
+@container(max-width:490px){
+  .oral-fiche-columns{grid-template-columns:1fr}
+  .oral-fiche-phrases{padding-right:0}
+  .oral-fiche-vocab{border-left:0;border-top:1px solid #d9e0e9;padding:9px 0 0;margin-top:7px}
+}
+@container(max-width:330px){.oral-fiche-phrase{grid-template-columns:1fr;gap:1px}}
+[data-practice-card]{max-width:none}
+.wrap:has([data-practice-card]){max-width:none}
+.practice-stage-count{margin:14px 0 0}.practice-stage-count+p{margin-top:6px}
+.practice-cue-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:9px;margin:12px 0 18px;padding:0;list-style:none}
+.practice-cue-grid li{display:flex;align-items:baseline;gap:9px;min-width:0;padding:9px 11px;border:1px solid #dce6ee;border-radius:10px;background:#f7fafd}
+.practice-cue-grid li>.muted{font-size:12px}.practice-cue-grid .initials{font-size:inherit;line-height:1.3}
+.practice-cue-grid .initial-word{padding:3px 5px;min-width:24px;margin:2px 0}
+.practice-pager{align-items:center}.practice-pager .muted{min-width:110px;text-align:center}
+.practice-word-bank{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:9px 0}
+.practice-picked{padding:9px;min-height:52px;border:1px solid #dce6ee;border-radius:10px;background:#f7fafd}
+.practice-feedback:not(:empty){margin:10px 0;padding:9px 11px;border-radius:10px;background:#edf5fc}
+.practice-feedback p{margin:5px 0 0}
+[data-practice-typing] textarea{display:block;min-height:60px;margin:5px 0 9px}
+[data-clause-cue]{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+[data-clause-cue] input{flex:1;min-width:min(100%,230px)}
+.y10-writing{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:16px;align-items:start}
+.y10-level-up{padding:12px;margin-bottom:16px;border:1px solid #dfc77c;border-radius:12px;background:#fff8e4;color:#17314d;font-size:13px;line-height:1.45}
+.y10-level-up h3{margin:0}
+.y10-level-up img{display:block}
+.y10-level-up p{margin:5px 0 9px}
+.y10-level-up ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,185px),1fr));gap:8px;padding:0;margin:0;list-style:none}
+.y10-level-up li{padding:8px 10px;border:1px solid #eadfbd;border-radius:8px;background:#fffdf7}
+.y10-level-up li p{margin:4px 0 0}
+.y10-level-up small{display:block;margin-top:4px;color:#495972;font-size:12px}
+.y10-stretch-phrase{display:flex;flex-wrap:wrap;align-items:center;gap:3px}
+.y10-stretch-phrase .vocab-key{padding:3px 6px;border-color:#d2bb77;font-size:13px;font-weight:700}
+.y10-stretch-phrase .vocab-key:hover,.y10-stretch-phrase .vocab-key:focus-visible{border-color:#806621;background:#fff0c1}
+.y10-subjunctive-models{display:grid;gap:6px;margin-top:8px;padding-left:8px;border-left:2px solid #d2bb77}
+.y10-subjunctive-models small{margin-top:0}
+[data-y10-topic][aria-pressed="true"]{border-color:#176b64;background:#e9f4f1;color:#154b46;font-weight:700}
+.y10-fiche{margin:0 0 16px;font-size:13px;line-height:1.35}
+.y10-fiche h3{font-size:16px}
+.y10-fiche-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px}
+.y10-fiche section{padding:10px;border-radius:9px;background:#f1f6fc}
+.y10-fiche section:nth-child(even){background:#f5f2fb}
+.y10-fiche section:nth-child(3n){background:#edf7f2}
+.y10-chunk-slot+.y10-chunk-slot{margin-top:10px}
+.y10-chunk-slot h5{margin:0 0 5px;font-size:11px;color:#354f65}
+.y10-fiche .y10-chunk-slot ul{display:flex;flex-wrap:wrap;gap:5px}
+@media(min-width:1081px){.y10-writing>.card{position:sticky;top:12px}}
+.y10-fiche h4{margin-bottom:7px}
+.y10-fiche ul{padding:0;margin:0;list-style:none;display:grid;gap:6px}
+.y10-fiche small{font-size:11px}
+.y10-fiche .y10-connectives{background:#fcf4e8;margin:0 12px 12px}
+.y10-connectives ul{display:flex;flex-wrap:wrap;gap:7px 12px}
+.y10-si-guide{padding:12px;margin:0 0 15px;border:1px solid #bbdbd4;border-radius:10px;background:#edf7f4;font-size:13px;line-height:1.4}
+.y10-si-guide h3{margin:0;color:#154b46;font-size:15px}
+.y10-si-guide p{margin:6px 0 9px}
+.y10-si-example+.y10-si-example{margin-top:8px}
+.y10-si-example small{display:block;color:#354f65}
+.y10-si-example mark{padding:0 2px;border-radius:3px;color:inherit}
+.y10-si-if{background:#cce5fa}.y10-si-result{background:#fbe0ba}
+@media(max-width:1080px){.y10-writing{grid-template-columns:1fr}}
+@container(max-width:330px){.y10-fiche-columns{grid-template-columns:1fr}}
+.practice-reorder-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);align-items:start;gap:16px}
+.practice-reorder-progress{padding:14px;border:1px solid #bbdbd4;border-radius:10px;background:#edf7f4;overflow-wrap:anywhere}
+.practice-reorder-progress h3{margin:0;font-size:15px;color:#154b46}
+.practice-reorder-progress p{margin:7px 0 0;line-height:1.55}
+@media(max-width:900px){.practice-reorder-layout{grid-template-columns:1fr}}
+.y10-sidebar{max-height:calc(100dvh - 24px);overflow:auto}
+</style><link rel="stylesheet" href="writing-tools.css"><link rel="stylesheet" href="y10-rehearsal.css"><script src="writing-tools.js" data-language="page" defer></script></head><body><nav class="toolbar" id="toolbar" aria-label="Étapes"></nav><p id="notice" role="status"></p><main class="wrap" id="app"></main><div id="printArea" class="print-only"></div><script src="y12-styles-support.js"></script><script src="y12-draft-review.js"></script><script src="y12-writing.js"></script><script src="y10-conversation.js"></script><script src="spanish-igcse-questions.js"></script><script src="spanish-igcse-support.js"></script><script src="y10-wellbeing-support.js"></script><script src="y10-topic-support.js"></script><script src="y10-support.js"></script><script src="y12-simple.js"></script><script src="y12-chunks.js"></script><script src="y12-practice.js"></script><script src="y10-rehearsal.js"></script><script>
+const pageParams = new URLSearchParams(window.location.search);
+const spanishPractice = SPANISH_IGCSE_PRACTICE.find(section => section.id === pageParams.get('spanish'));
+const studyLanguage = spanishPractice ? 'es' : 'fr';
+const gcseText = (french, spanish) => spanishPractice ? spanish : french;
+const YEAR_TEN = pageParams.get('year') === '10' || Boolean(spanishPractice);
+const conversationTheme = spanishPractice || Y10_CONVERSATION_THEMES.find(theme => theme.id === pageParams.get('theme')) ||
+  Y10_CONVERSATION_THEMES[0];
+if (YEAR_TEN) {
+  const courseTitle = gcseText('GCSE French', 'IGCSE Spanish');
+  document.title = courseTitle + ' · ' + conversationTheme.title;
+  if (spanishPractice) {
+    document.documentElement.lang = studyLanguage;
+    document.getElementById('toolbar').setAttribute('aria-label', 'Etapas');
+  }
+}
+const QUESTIONS=YEAR_TEN ? [] : [{"id": 1, "text": "Certains disent qu’ « il faut souffrir pour être belle/beau. » Qu’en penses-tu ?"}, {"id": 2, "text": "Quel est l’idéal de beauté masculine/féminine présenté dans les médias ?"}, {"id": 3, "text": "Trouves-tu qu’aujourd’hui les jeunes sont obsédés par la perfection physique ?"}, {"id": 4, "text": "Quels stéréotypes la publicité véhicule-t-elle sur les femmes ?"}, {"id": 5, "text": "De quelle façon ces stéréotypes t’influencent-ils ?"}, {"id": 6, "text": "Quels stéréotypes la publicité véhicule-t-elle sur les hommes?"}, {"id": 7, "text": "De quelle façon ces stéréotypes t’influencent-ils ?"}, {"id": 8, "text": "Qu’est-ce qui explique la mode des tatouages et des piercings ?"}, {"id": 9, "text": "Selon toi, y a-t-il des cas où la chirurgie esthétique est acceptable ? Si oui, peux-tu donner des exemples ? Sinon, pourquoi pas ?"}, {"id": 10, "text": "Les cantines scolaires devraient-elles proposer un petit déjeuner gratuit pour tous les élèves ? Pourquoi (pas) ?"}, {"id": 11, "text": "Que fait-on à la cantine de la nourriture qui n’y est pas consommée ? Comment pourrait-on faire pour ne pas y gaspiller de nourriture ?"}, {"id": 12, "text": "Beaucoup de jeunes sont aujourd’hui en surpoids. Devrait-on indiquer le nombre de calories sur chaque plat ou chaque menu servi à la cafétéria de l’école ? Pourquoi (pas) ?"}, {"id": 13, "text": "Quel rapport les Français ont-ils avec la nourriture ?"}, {"id": 14, "text": "Quels sont les plats typiques de ta région / de ton pays ? Est-il important pour toi d’apprendre à les cuisiner ?"}, {"id": 15, "text": "La gastronomie française fait maintenant partie du « patrimoine de l’humanité ». D’après toi, la cuisine de ton pays mérite-t-elle aussi cette distinction ? Pourquoi (pas) ?"}, {"id": 16, "text": "Penses-tu que maintenant partout dans le monde nous mangions tous la même chose ? Comment expliquer ce phénomène ? Faut-il y résister ? Si oui, comment ?"}, {"id": 17, "text": "Faut-il acheter des produits qui viennent de son pays plutôt que ceux qui viennent de loin ? Pourquoi ?"}, {"id": 18, "text": "L’achat de produits biologiques est-il réservé aux riches ?"}, {"id": 19, "text": "Privilégier le commerce équitable, est-ce une manière facile de se donner bonne conscience ?"}, {"id": 20, "text": "Es-tu végétarien(ne) ou végétalien(ne) ? Pourquoi (pas) ?"}, {"id": 21, "text": "Pourquoi certaines personnes décident-elles de devenir végétariennes ou végétaliennes ?"}, {"id": 22, "text": "Penses-tu que quelqu’un qui est végétarien devrait porter des chaussures et un sac en cuir ? Pourquoi (pas) ? Que lui dirais-tu ?"}, {"id": 23, "text": "Certaines cantines proposent des journées sans viande. Es-tu d’accord avec cette initiative ? Pourquoi (pas) ?"}, {"id": 24, "text": "Les insectes comestibles sont riches en protéines, plus riches que la viande. Serais-tu prêt(e) à en manger ? Pourquoi (pas) ?"}, {"id": 25, "text": "Comment se fait-il que les jeunes s’habillent tous plus ou moins de la même manière ?"}, {"id": 26, "text": "Qu’est-ce qu’ « être à la mode » veut dire pour toi ?"}, {"id": 27, "text": "D’où vient la mode ?"}, {"id": 28, "text": "Qui influence le plus la mode ?"}, {"id": 29, "text": "Est-ce que la mode est importante pour les jeunes ? Pourquoi ?"}, {"id": 30, "text": "Les jeunes sont-ils trop influencés par les autres ?"}, {"id": 31, "text": "La mode exerce-t-elle une tyrannie ?"}, {"id": 32, "text": "Suis-tu la mode ? Comment définirais-tu ton style ?"}, {"id": 33, "text": "Qu’est-ce qui t’importe le plus quand tu achètes un vêtement : le coût, la marque, la provenance… ? Pourquoi ?"}, {"id": 34, "text": "Que fais-tu de tes vêtements dont tu ne sers plus ? Existe-t-il d’autres solutions que de les jeter ?"}, {"id": 35, "text": "Que penses-tu de la mode express ? Est-il vraiment nécessaire de constamment suivre la mode et de renouveler ses habits si souvent ?"}, {"id": 36, "text": "Certaines marques de vêtements ont été accusées de faire vivre leurs employés dans de mauvaises conditions ou même d’employer de jeunes enfants. Achètes-tu de vêtements de ces marques ? Que fait-on pour les empêcher d’imposer de mauvaises conditions de travail ?"}, {"id": 37, "text": "Que penses-tu de la haute couture ?"}, {"id": 38, "text": "Pourquoi la haute couture fait-elle partie des traditions françaises ?"}, {"id": 39, "text": "Comment réagiraient tes parents si tu t’habillais tout à fait différemment ?"}, {"id": 40, "text": "D’après toi, y a-t-il des vêtements qu’il convient de ne pas porter à l’école ? Si oui, lesquels et pourquoi ?"}, {"id": 41, "text": "Pourquoi certaines écoles exigent-elles le port d’un uniforme ? Es-tu favorable à ce règlement ?"}, {"id": 42, "text": "Qu’est-ce que le minimalisme ?"}, {"id": 43, "text": "Posséder une voiture, une maison… nous rend-il plus heureux / heureuse? Sinon, quel(s) style(s) de vie pourraient te rendre personnellement heureux / heureuse ?"}, {"id": 44, "text": "Que devrais-tu faire pour avoir un style de vie minimaliste ?"}, {"id": 45, "text": "Reçois-tu de l’argent de poche ? Travailles-tu pendant les vacances? Comment dépenses-tu ton argent ? Qu’est-ce que cela nous dit au sujet de ton style de vie ?"}, {"id": 46, "text": "Pour toi, qu’est-ce que réussir sa vie ?"}, {"id": 47, "text": "Penses-tu que le concept d’une vie réussie puisse changer d’une personne à l’autre ? Donne des exemples."}];
+const REQUIRED=YEAR_TEN ? conversationTheme.questions : [{"id": 101, "text": "Qu’est-ce qui fait de toi la personne que tu es ?", "core": 1}, {"id": 102, "text": "Peut-on faire partie d’un groupe tout en restant soi-même ?", "core": 2}, {"id": 103, "text": "Est-ce qu’il y a eu un moment où un groupe ou une communauté a influencé ta façon de penser ou de te comporter ?", "core": 3}];const CORE_IDS=REQUIRED.map(q=>q.id);QUESTIONS.unshift(...REQUIRED);
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const STORE=YEAR_TEN ? conversationTheme.store : 'atelier-y12-styles-v1';let state={selected:[],drafts:{},name:''},mode='edit',current=CORE_IDS[0],part=0,randomOrder=[],randomIndex=0,search='';let speechToken=0,wordTokens=[];
+let chooserOpen=false;
+try{let saved=JSON.parse(localStorage.getItem(STORE)||'null');if(saved&&typeof saved==='object'){state.selected=Array.isArray(saved.selected)?[...new Set(saved.selected.filter(id=>QUESTIONS.some(q=>q.id===id)))].slice(0,8):[];state.drafts=saved.drafts&&typeof saved.drafts==='object'?saved.drafts:{};state.name=typeof saved.name==='string'?saved.name:'';if(YEAR_TEN)state.y10FirstQuestion=saved.y10FirstQuestion;}}catch(e){$('notice').textContent='Les données enregistrées ne sont pas disponibles. Tu peux commencer une nouvelle sélection.'}
+if (YEAR_TEN && conversationTheme.id === 'y10') {
+  const previous = state.drafts[Y10_FAMILY];
+  if (previous?.topic === 'friendship' && !state.drafts[Y10_FRIENDSHIP]) {
+    state.drafts[Y10_FRIENDSHIP] = previous;
+    delete state.drafts[Y10_FAMILY];
+    state.y10FirstQuestion ??= Y10_FRIENDSHIP;
+  }
+  if (state.y10FirstQuestion !== Y10_FRIENDSHIP) state.y10FirstQuestion = Y10_FAMILY;
+}
+for (const savedDraft of Object.values(state.drafts)) {
+  if (savedDraft && typeof savedDraft === 'object' && typeof savedDraft.revision !== 'string') {
+    savedDraft.revision = typeof savedDraft.answer === 'string' ? savedDraft.answer : '';
+  }
+}
+if(state.selected.filter(id=>!CORE_IDS.includes(id)).length>5)$('notice').textContent='Les trois questions communes ont été ajoutées. Tes cinq premiers choix ont été conservés. Les autres réponses restent enregistrées : sélectionne leur question pour les retrouver.';state.selected=[...CORE_IDS,...state.selected.filter(id=>!CORE_IDS.includes(id)).slice(0,5)];if(!state.selected.includes(current))current=CORE_IDS[0];
+function choiceIds(){return state.selected.filter(id=>!CORE_IDS.includes(id))}function questionLabel(id=current){return CORE_IDS.includes(id)?(YEAR_TEN?gcseText('Question ', 'Pregunta '):'Question commune ')+question(id).core:'Banque '+id}function toggleChoice(id,checked){if(CORE_IDS.includes(id)||!QUESTIONS.some(q=>q.id===id))return;if(checked&&!state.selected.includes(id)&&choiceIds().length<5)state.selected.push(id);if(!checked)state.selected=state.selected.filter(x=>x!==id);state.selected=[...CORE_IDS,...choiceIds().sort((a,b)=>a-b)];chooserOpen = $('choose-questions')?.open ?? chooserOpen;save();render()}
+function draft(id=current){if(!state.drafts[id]||typeof state.drafts[id]!=='object')state.drafts[id]={};let d=state.drafts[id];for(const k of ['answer','notes','cues','targets','revision'])if(typeof d[k]!=='string')d[k]='';if(!d.review||typeof d.review!=='object')d.review={};if(!d.checks||typeof d.checks!=='object')d.checks={};return d}
+function save(){try{localStorage.setItem(STORE,JSON.stringify(state));let s=$('save-status');if(s)s.textContent=gcseText('Enregistré sur cet appareil', 'Guardado en este dispositivo');return true}catch(e){$('notice').textContent=YEAR_TEN?gcseText('Enregistrement indisponible. Copie ta réponse pour la garder.', 'No se pudo guardar. Copia tu respuesta para conservarla.'):'Enregistrement indisponible : imprime tes réponses pour en garder une copie.';return false}}
+function question(id=current) {
+  return QUESTIONS.find(q => q.id === id);
+}
+function answered(){return state.selected.filter(id=>draft(id).revision.trim())}
+function stopSpeech() {
+  speechToken++;
+  document.querySelector('[data-y10-speaking]')?.removeAttribute('data-y10-speaking');
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+}
+function speak(text, twice = false, options = {}) {
+  stopSpeech();
+  if (!String(text).trim()) return;
+  if (!('speechSynthesis' in window)) {
+    $('notice').textContent = gcseText('Audio indisponible · Audio unavailable', 'Audio no disponible');
+    return;
+  }
+  const token = speechToken;
+  function play(again) {
+    if (token !== speechToken) return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = gcseText('fr-FR', 'es-ES');
+    utterance.rate = options.rate ?? .85;
+    const voices = speechSynthesis.getVoices();
+    const languageVoices = voices.filter(voice => voice.lang.toLowerCase().split('-')[0] === studyLanguage);
+    const matchesRegion = voice => voice.lang.toLowerCase() === utterance.lang.toLowerCase();
+    const voice = (YEAR_TEN && languageVoices.find(voice => voice.localService && matchesRegion(voice))) ||
+      languageVoices.find(matchesRegion) || languageVoices[0];
+    if (voice) utterance.voice = voice;
+    else if (spanishPractice && voices.length) {
+      $('notice').textContent = 'Activa una voz en español en tu dispositivo.';
+      return;
+    }
+    if (options.boundary) utterance.onboundary = event => {
+      if (token === speechToken) options.boundary(event);
+    };
+    utterance.onend = () => {
+      if (token !== speechToken) return;
+      options.finish?.();
+      if (again) setTimeout(() => play(false), 1700);
+    };
+    if (options.finish) utterance.onerror = event => {
+      if (token === speechToken) options.finish(event);
+    };
+    speechSynthesis.speak(utterance);
+  }
+  play(twice);
+}
+function practiceChunks() {
+  return suggestChunks(draft().revision);
+}
+function initialMarkup(text){const re=/\p{L}[\p{L}\p{M}\p{N}]*(?:[’'\-‐‑][\p{L}\p{M}\p{N}]+)*|\p{N}+/gu;let out='',last=0;for(const m of text.matchAll(re)){out+=esc(text.slice(last,m.index));const idx=wordTokens.push(m[0])-1;out+=`<button class="initial-word" data-word="${idx}" aria-label="${gcseText('Écouter le mot', 'Escuchar la palabra')} ${idx+1}">${esc([...m[0]][0])}</button>`;last=m.index+m[0].length}return out+esc(text.slice(last))}
+const checks=[['content','J’ai répondu à toute la question et développé mes idées.'],['example','J’ai donné un exemple précis et expliqué sa pertinence.'],['accuracy','J’ai vérifié les verbes, les accords et l’ordre des mots.'],['range','J’ai varié le vocabulaire et utilisé des structures complexes adaptées.'],['idiom','Mes expressions sont naturelles et je comprends ce que j’ai écrit.'],['culture','J’ai envisagé un lien culturel ou une comparaison, si cela aide ma réponse.']];
+function corePlanning(){
+  return `<details><summary>Notes de préparation</summary><label class="field-label" for="notes">Idée · raison · exemple · nuance · culture si pertinente</label><textarea id="notes" data-draft="notes">${esc(draft().notes)}</textarea></details>`;
+}
+function helpPanel(){const pilot=current===32;return `<aside class="help" aria-label="Aide pour la réponse"><div class="card"><span class="badge">${pilot?'Question 32 · Fiche et conseils':'Fiche Styles de vie'}</span><h3>Construire ma réponse</h3>${ficheSupport()}
+<details open><summary>Répondre et développer</summary>${pilot?`<ul><li>Réponds aux deux parties : suis-tu la mode ? Quel est ton style ?</li><li>Explique ce qui guide tes choix : confort, prix, originalité, amis…</li><li>Décris un vêtement ou un achat récent.</li><li>Ajoute une nuance : dans quelles situations tes choix changent-ils ?</li></ul>`:`<ul><li>Réponds directement à chaque partie de la question.</li><li>Explique pourquoi et donne un exemple précis.</li><li>Ajoute une nuance ou une conséquence.</li></ul>`}</details>
+<details><summary>Grammaire essentielle</summary>${pilot?`<span class="model">Je porte souvent…<br>Je ne suis pas toujours la mode.<br>J’ai acheté un pantalon…</span><p><strong>Attention :</strong> je <em>suis</em> la mode (suivre) ; je <em>porte</em> un vêtement. Un pantalon noir / des chaussures noires. Au passé composé : <em>j’ai acheté</em>, avec l’auxiliaire.</p>`:`<p>Vérifie le sujet et le verbe, les auxiliaires, les participes passés, les accords et la place de la négation.</p><span class="model">Je pense… / Nous pensons…<br>J’ai changé d’avis.<br>Je ne partage pas cet avis.</span>`}</details>
+<details><summary>Structures complexes</summary>${pilot?`<span class="model">Ce qui compte pour moi, c’est le confort.</span><p>Pour mettre en relief ta priorité : <em>Ce qui… c’est…</em></p><span class="model">Même si mes amis suivent les tendances, je préfère choisir moi-même.</span><p><em>Même si</em> + indicatif : une concession.</p><span class="model">Si j’avais davantage d’argent, j’achèterais des vêtements plus durables.</span><p><em>Si</em> + imparfait → conditionnel. Pas de conditionnel immédiatement après <em>si</em>.</p>`:`<span class="model">Ce qui me paraît essentiel, c’est…<br>Même si…, je…<br>Si j’avais…, je pourrais…</span><p>Choisis une structure qui exprime réellement ton idée. Vérifie la construction avant de l’utiliser.</p>`}</details>
+<details><summary>Vocabulaire et expressions</summary>${pilot?`<p><strong>Décrire :</strong> décontracté, classique, original, confortable, un vêtement d’occasion, la marque, la provenance.</p><span class="model">avoir son propre style — choisir un style personnel<br>avoir tendance à — faire souvent quelque chose<br>subir la pression du groupe — se sentir poussé à imiter les autres<br>prendre du recul — réfléchir sans suivre immédiatement les autres</span><p><em>J’ai tendance à privilégier les vêtements confortables.</em></p>`:`<span class="model">Cela s’explique notamment par…<br>Il faut toutefois reconnaître que…<br>avoir tendance à + infinitif<br>prendre du recul</span><p>Utilise un vocabulaire précis et évite de répéter les mêmes débuts de phrase. Les expressions doivent servir ton idée.</p>`}</details>
+<details><summary>Culture et comparaison</summary>${pilot?`<p>En France, l’ADEME encourage l’achat de vêtements de seconde main et leur réparation pour prolonger leur utilisation.</p><p><a href="https://agirpourlatransition.ademe.fr/particuliers/mieux-consommer/mode/solutions-choisir-entretenir-vetements" target="_blank" rel="noopener noreferrer">Source : ADEME · Choisir et entretenir ses vêtements</a></p><p>Si cela rejoint ton style, explique pourquoi. Compare avec tes propres possibilités d’achat ou d’échange aux Bermudes, sans généraliser à tout le pays.</p><span class="model">Dans mon entourage aux Bermudes…, tandis que…</span>`:`<p>Si cela enrichit ta réponse, utilise un exemple francophone étudié en classe ou une source vérifiée. Explique le lien avec ton idée, puis compare avec une expérience précise aux Bermudes.</p><p>Un lien culturel n’est pas obligatoire dans chaque réponse.</p>`}</details>
+<details><summary>À l’oral</summary><p>Regroupe les mots par idées, fais une pause entre les arguments et articule les mots clés. Les expressions doivent rester compréhensibles et naturelles.</p></details></div></aside>`}
+function sidebar() {
+  const hiddenVariant = state.y10FirstQuestion === Y10_FAMILY ? Y10_FRIENDSHIP : Y10_FAMILY;
+  const ids = YEAR_TEN ? CORE_IDS.filter(id => id !== hiddenVariant) : state.selected;
+  return `<aside class="sidebar${YEAR_TEN ? ' y10-sidebar' : ''}" aria-label="${gcseText('Mes questions', 'Mis preguntas')}">${ids.map(sidebarButton).join('')}</aside>`;
+}
+function sidebarButton(id){return `<button data-question="${id}" class="${id===current?'active':''}"><strong>${esc(questionLabel(id))}.</strong> ${esc(question(id).text)}<small>${draft(id).memorised?gcseText('Prêt(e) sans texte', 'Lista para decirla'):draft(id).revision.trim()?(YEAR_TEN?gcseText('Réponse enregistrée', 'Respuesta guardada'):'Version retravaillée'):draft(id).answer.trim()?gcseText('Brouillon enregistré', 'Borrador guardado'):gcseText('À préparer', 'Por preparar')}</small></button>`}
+function bankItems(){return QUESTIONS.filter(q=>!CORE_IDS.includes(q.id)).filter(q=>!search||q.text.toLocaleLowerCase('fr').includes(search.toLocaleLowerCase('fr'))||String(q.id)===search).map(q=>`<label class="question-option"><input type="checkbox" data-select="${q.id}" ${state.selected.includes(q.id)?'checked':''} ${choiceIds().length>=5&&!state.selected.includes(q.id)?'disabled':''}><span><strong>${q.id}.</strong> ${esc(q.text)}${q.id===32?' <span class="badge">Aide détaillée</span>':''}</span></label>`).join('')}
+function wordCount(t){return t.trim()?t.trim().split(/\s+/u).length:0}
+function revealMarkup(){return `<div class="actions"><button data-action="reveal">Afficher / masquer ma réponse</button></div><div id="revealed" class="reveal hidden">${esc(draft().revision)}</div>`}
+function randomPractice() {
+  const d = draft(), q = question();
+  return `<section class="card"><span class="badge">${esc(questionLabel())}</span><h2>${esc(q.text)}</h2>
+    <div class="actions"><button data-action="listen-question">▶ Écouter la question</button><button data-action="stop">Arrêter l’audio</button></div>
+    <p>Écoute la question, puis réponds à voix haute.</p>${revealMarkup()}
+    <label class="check"><input type="checkbox" data-memorised ${d.memorised?'checked':''}> Je peux répondre sans texte ni audio.</label>
+    <div class="actions"><button class="primary" data-action="random-next">Question suivante →</button></div>
+    <p class="muted">Question ${randomIndex+1} / ${randomOrder.length} · uniquement tes questions préparées.</p></section>`;
+}
+function randomise(){randomOrder=[...answered()];for(let i=randomOrder.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[randomOrder[i],randomOrder[j]]=[randomOrder[j],randomOrder[i]]}randomIndex=0;if(randomOrder.length)current=randomOrder[0]}
+function setMode(next, resume = false) {
+  stopSpeech();
+  const previous = mode;
+  if (YEAR_TEN && next === 'select') next = 'edit';
+  mode = next;
+  part = 0;
+  if (next === 'random') randomise();
+  const practicing = isRehearsalMode(next);
+  const pilot = current === PILOT_QUESTION;
+  if ((pilot && !['select','random'].includes(next)) || practicing) {
+    const d = draft();
+    if (YEAR_TEN && practicing && d.answer !== d.revision) {
+      updateRevision(d, d.answer);
+      mode = next = 'repeat';
+      resume = false;
+    } else if (practicing && draftChangedSinceRevision(d)) {
+      updateRevision(d, d.answer);
+      if (resume) {
+        mode = next = 'repeat';
+        resume = false;
+      }
+    } else if (pilot && next === 'repeat' && previous === 'review' && !d.revision.trim()) {
+      updateRevision(d, d.answer);
+    }
+    const savedPart = pilot ? d.pilotPart : d.practicePart;
+    if (resume && practicing && Number.isInteger(savedPart) && savedPart >= 0) part = savedPart;
+    if (pilot) {
+      d.pilotStep = next;
+      if (practicing) d.pilotPart = part;
+    } else {
+      d.practiceStep = next;
+      d.practicePart = part;
+    }
+    save();
+  }
+  render();
+  if (!resume && practicing && previous !== next) $('practice-instruction')?.focus();
+}
+function render() {
+  if (mode !== 'select' && !state.selected.includes(current)) current = state.selected[0] || PILOT_QUESTION;
+  const simple = YEAR_TEN || mode === 'select' || mode === 'random' || current === PILOT_QUESTION;
+  $('toolbar').classList.toggle('simple-toolbar',simple);
+  if (simple) $('toolbar').innerHTML = simpleToolbar();
+  else toolbars();
+  if (mode === 'select') $('app').innerHTML = questionList();
+  else if (mode === 'random') $('app').innerHTML = randomOrder.length
+    ? `<div class="simple-card">${randomPractice()}</div>`
+    : '<section class="simple-card card"><p>Prépare au moins une réponse pour commencer.</p><button data-mode="select">Revenir à mes questions</button></section>';
+  else {
+    const page = YEAR_TEN
+      ? (mode === 'edit' ? yearTenWriting() : y10Rehearsal())
+      : current === PILOT_QUESTION
+        ? (mode === 'edit' ? simpleDraft() : mode === 'review' ? simpleReview() : simplePractice())
+        : (mode === 'edit' ? editing() : mode === 'review' ? analysisPage() : mode === 'revise' ? revisionPage() : simplePractice());
+    $('app').innerHTML = `<div class="layout">${sidebar()}<div>${page}</div></div>`;
+  }
+  bind();
+  if (YEAR_TEN) bindY10Rehearsal();
+  else bindPracticeStage();
+  if ($('choose-questions')) $('choose-questions').ontoggle = e => { chooserOpen = e.currentTarget.open; };
+}
+function printAnswers(){stopSpeech();$('printArea').innerHTML=`<h1>Year 12 · Identités · Styles de vie</h1><p>Mme Neill · ${esc(state.name||'Nom : ____________________')}</p>${state.selected.map(id=>`<article><h2>${esc(questionLabel(id))}. ${esc(question(id).text)}</h2><div class="printed-answer">${esc(draft(id).revision||draft(id).answer||'Réponse à préparer.')}</div><div class="comments">Commentaires / corrections :</div></article>`).join('')}`;window.print()}
+function bind(){document.querySelectorAll('[data-core]').forEach(b=>b.onclick=()=>resumeQuestion(+b.dataset.core));document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));document.querySelectorAll('[data-question]').forEach(b=>b.onclick=()=>{stopSpeech();current=+b.dataset.question;part=0;if(YEAR_TEN||current===PILOT_QUESTION||PRACTICE_STAGES.includes(mode)){resumeQuestion(current);return}render()});document.querySelectorAll('[data-select]').forEach(el=>el.onchange=()=>toggleChoice(+el.dataset.select,el.checked));const searchEl=$('search');if(searchEl)searchEl.oninput=()=>{const caret=searchEl.selectionStart;search=searchEl.value;$('bank').innerHTML=bankItems();bindBank()};const name=document.querySelector('[data-name]');if(name)name.oninput=()=>{state.name=name.value;save()};bindWriting();document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{draft().checks[el.dataset.check]=el.checked;save()});document.querySelectorAll('[data-word]').forEach(b=>b.onclick=()=>speak(wordTokens[+b.dataset.word]));document.querySelectorAll('[data-chunk]').forEach(b=>b.onclick=()=>speak(practiceChunks()[+b.dataset.chunk]));document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const a=b.dataset.action;if(a==='apply-keywords'){render();return}if(a==='copy-draft'&&draft().answer.trim()){updateRevision(draft(),draft().answer);save();render()}if(a==='start'){current=state.selected[0];setMode('edit')}if(a==='listen-draft')speak(draft().answer);if(a==='listen-answer')speak($('revision')?.value ?? draft().revision);if(a==='listen-question')speak(question().text);if(a==='stop')stopSpeech();if(a==='repeat-part')speak(practiceChunks()[part],true);if(a==='prev'||a==='next'){stopSpeech();part+=a==='prev'?-1:1;if(current===PILOT_QUESTION)draft().pilotPart=part;else draft().practicePart=part;save();render()}if(a==='reveal')$('revealed').classList.toggle('hidden');if(a==='print')printAnswers();if(a==='random-next'){stopSpeech();randomIndex++;if(randomIndex>=randomOrder.length)randomise();else current=randomOrder[randomIndex];render()}})}
+function bindBank(){document.querySelectorAll('[data-select]').forEach(el=>el.onchange=()=>toggleChoice(+el.dataset.select,el.checked))}
+window.addEventListener('pagehide',stopSpeech);render();
+</script></body></html>
