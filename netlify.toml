@@ -1,0 +1,9 @@
+# Netlify configuration for Atelier Oral (static site, no build step)
+[build]
+  publish = "dist"
+
+# Ensure ES modules are served with the correct MIME type
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript"
