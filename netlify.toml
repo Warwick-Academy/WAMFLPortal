@@ -1,6 +1,14 @@
-# Netlify configuration for Atelier Oral (static site, no build step)
 [build]
-  publish = "dist"
+  command = "npm run build"
+  publish = "app-dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 # Ensure ES modules are served with the correct MIME type
 [[headers]]

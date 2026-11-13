@@ -1,6 +1,8 @@
 # Atelier Oral — IT handover
 
-This is the complete self-hostable source and asset snapshot for the published ChatGPT Sites release 54. It is a static site for Warwick Academy students to prepare and practise French and Spanish speaking activities. Students can build or write answers, listen to model pronunciation, practise recall, and download or print a summary where the course offers it.
+This repository contains the self-hostable source and asset snapshot for the published ChatGPT Sites release 54, plus a separate React portal under active development. The original static French and Spanish practice site remains in `dist/`; the portal source is at the repository root and builds to `app-dist/`. Netlify still publishes `dist/`, so the portal is not live until deployment is deliberately switched.
+
+The portal adds Microsoft sign-in, Supabase-backed profiles and assessment content, student browsing, and teacher administration. See [docs/SSO_SETUP.md](docs/SSO_SETUP.md) and [docs/ADMIN_GUIDE.md](docs/ADMIN_GUIDE.md). Student practice responses currently remain in browser-local storage.
 
 ## What to open
 
@@ -12,6 +14,8 @@ This is the complete self-hostable source and asset snapshot for the published C
 
 ## Run locally
 
+### Original static site
+
 1. Extract the ZIP to a new folder. Open a terminal in the extracted `atelier-oral-handover` folder, where `dist/` and this README sit.
 2. If Python 3 is installed, run:
 
@@ -22,6 +26,13 @@ This is the complete self-hostable source and asset snapshot for the published C
    On Windows with the Python launcher, use `py -3 -m http.server --bind 127.0.0.1 --directory dist 8000`.
 3. Open `http://127.0.0.1:8000/` in a current browser. Keep the terminal open while you test. Press Ctrl+C to stop the preview.
 4. Use the HTTP URL for testing. Opening the HTML directly as a local file can affect frame loading, browser storage and the PDF module.
+
+### React portal
+
+1. Install Node.js, then run `npm ci` from this repository root.
+2. Copy `.env.example` to `.env.local` and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. Never put a Supabase service-role key in a `VITE_` variable.
+3. Run `npm run dev` and open the local address printed by Vite.
+4. Run `npm test` for unit tests and `npm run build` for a production build. The build is written to `app-dist/` and does not replace the legacy `dist/`.
 
 ## Deploy on the school server
 
